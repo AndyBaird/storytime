@@ -1,0 +1,30 @@
+{
+  "name": "Storytime",
+  "private": true,  
+  "version": "1.0.0",
+  "description": "Storytime in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -L index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyBaird/storytime.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "base"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "ip": "^1.1.3",
+    "morgan": "^1.7.0",
+    "bootstrap": "3.3.7"
+  }
+}
